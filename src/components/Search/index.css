@@ -1,0 +1,68 @@
+.searchComp {
+  background-color: #181818;
+  width: 100%;
+  min-height: 100vh;
+}
+.search-loading {
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.no-movies {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.no-movies img {
+  height: 300px;
+}
+.no-movies p {
+  color: #ffffff;
+  font-family: HK Grotesk;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 31.27px;
+  text-align: left;
+  margin-top: 10px;
+}
+@media screen and (max-width: 375px) {
+  .no-movies img {
+    height: 150px;
+  }
+  .no-movies p {
+    font-size: 14px;
+  }
+}
+.search-movies {
+  padding: 30px;
+}
+.search-movies ul {
+  list-style-type: none;
+  padding: 0px;
+  gap: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.search-movies img {
+  width: 260px;
+  height: 160px;
+  border-radius: 8px;
+}
+@media screen and (max-width: 375px) {
+  .search-movies {
+    padding: 10px;
+  }
+  .search-movies ul {
+    gap: 10px;
+  }
+  .search-movies img {
+    height: 80px;
+    width: 140px;
+    border-radius: 4px;
+  }
+}

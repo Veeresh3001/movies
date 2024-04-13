@@ -1,0 +1,147 @@
+.header {
+  width: 100%;
+  height: 100px;
+  opacity: 0.9;
+  background-color: #131313;
+}
+
+.header-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+  align-items: center;
+}
+@media screen and (max-width: 375px) {
+  .header-card {
+    padding: 10px 30px;
+  }
+}
+.header-logo {
+  height: 60px;
+  width: 200px;
+}
+
+@media screen and (max-width: 375px) {
+  .header-logo {
+    height: 40px;
+    width: 80px;
+  }
+}
+.link {
+  text-decoration: none;
+}
+.nav-card {
+  gap: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-items {
+  gap: 30px;
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 375px) {
+  .menu-icon {
+    display: none;
+  }
+}
+@media screen and (max-width: 375px) {
+  .nav-items {
+    display: none;
+  }
+}
+.logo {
+  color: #e50014;
+}
+.nav-link {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.35555556416511536px;
+  text-align: left;
+}
+.activeNav {
+  font-size: 17px;
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.mobile-nav-card {
+  background-color: #131313;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+}
+.mobile-nav-items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0px;
+}
+.avatar {
+  height: 50px;
+  width: 50px;
+}
+
+@media screen and (max-width: 375px) {
+  .avatar {
+    display: none;
+  }
+}
+
+.avatar-card {
+  /* margin-right: 165px; */
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.avatar-card button {
+  background-color: transparent;
+  width: fit-content;
+}
+.search-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+  padding: 0px 10px;
+  border: 1px solid #f8fafc;
+  border-radius: 6px;
+  width: 264px;
+  height: 40px;
+}
+.search-card input {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: #ffffff;
+  font-size: 16px;
+}
+.search-btn {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding: 0px;
+}
+.seach-icon {
+  cursor: pointer;
+}
+@media screen and (max-width: 375px) {
+  .search-card {
+    padding: 0px 6px;
+    width: 140px;
+    height: 30px;
+    border-radius: 4px;
+  }
+  .search-card input {
+    font-size: 14px;
+  }
+}

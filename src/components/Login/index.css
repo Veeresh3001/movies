@@ -1,0 +1,136 @@
+.login-page {
+  background-image: url('https://res.cloudinary.com/dwga2gxyd/image/upload/v1712664492/netfilx_1login-logo_sksus9.png');
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.login-logo {
+  margin: 30px 0px 0px 30px;
+  height: 70px;
+  width: 170px;
+}
+
+.form-card {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  background-color: #0c0b10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 456px;
+  height: 440px;
+  border-radius: 8px;
+  opacity: 80%;
+}
+.form div {
+  display: flex;
+  flex-direction: column;
+}
+.login-head {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+}
+@media screen and (max-width: 375px) {
+  .login-head {
+    font-size: 25px;
+  }
+}
+.input {
+  width: 360px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #333333;
+  opacity: 0px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #e2e8f0;
+  font-family: HK Grotesk;
+  font-size: 14px;
+  padding-left: 6px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+@media screen and (max-width: 375px) {
+  .input {
+    font-size: 11px;
+    width: 300px;
+    height: 35px;
+  }
+}
+label {
+  margin-top: 24px;
+  font-size: 12px;
+  font-family: HK Grotesk;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 1%;
+  align-self: flex-start;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 375px) {
+  label {
+    font-size: 11px;
+    margin-top: 15px;
+  }
+}
+.login-error {
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.24px;
+  align-self: flex-start;
+  color: #dc2626;
+  margin-top: 10px;
+}
+@media screen and (max-width: 375px) {
+  .login-error {
+    font-size: 12px;
+  }
+}
+.login-btn {
+  margin-top: 24px;
+  width: 360px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #e50914;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 375px) {
+  .login-btn {
+    width: 300px;
+    height: 35px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .login-page {
+    background-color: #131313;
+    background-image: none;
+  }
+  .login-logo {
+    margin: 10px 0px 0px 10px;
+    height: 40px;
+    width: 100px;
+  }
+  .form {
+    background-color: transparent;
+    width: 350px;
+  }
+}
